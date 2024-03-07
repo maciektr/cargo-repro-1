@@ -1,0 +1,7 @@
+[workspace]
+resolver =  "2"
+members = [ "bbb", "aaa"]
+
+[workspace.dependencies]
+serde_json = "1"
+axum = { version = "0.6", features = ["http2"] }
